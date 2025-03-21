@@ -19,7 +19,7 @@ if uploaded_file:
     df = load_parquet(uploaded_file)
 
     if df is not None:
-        if st.button("Executar Análises"):
+        if st.sidebar.button("Executar Análises"):
             with st.spinner("Executando análise geral..."):
                 run_analysis(df, uploaded_file.name)
 
