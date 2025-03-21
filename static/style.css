@@ -1,0 +1,17 @@
+/* Alinha o título mais à esquerda, próximo ao menu lateral */
+.main .element-container:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Ajusta especificamente os elementos h1 (títulos) */
+.main h1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Remove o padding padrão do contêiner principal */
+.block-container {
+    padding-left: 0 !important;
+    margin-left: 1rem !important;
+}
